@@ -8,6 +8,7 @@
     h2 {
         margin-left: 50px;
     }
+
     div h3 {
         margin-left: 50px;
     }
@@ -19,8 +20,26 @@
         text-align: center;
         flex-direction: column;
     }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        width: 380px;
+        flex-direction: column;
+        margin: 12px;
+    }
+
     input {
         margin:12px;
+    }
+
+    #briefing {
+        margin-top: 205px;
+
+    }
+
+    .submit {
+        margin-bottom: 100px;
     }
 }
 
@@ -92,6 +111,4 @@
         transform: rotate(45deg);
         top: 8px
     }
-
-  
 }
